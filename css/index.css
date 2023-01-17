@@ -1,0 +1,214 @@
+/*Colores*/
+/*Tipos de letra*/
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Modak&family=Monoton&family=Nosifer&family=Press+Start+2P&family=Rubik+Beastly&family=Rubik+Spray+Paint&family=Rubik+Wet+Paint&family=Ruslan+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Modak&family=Monoton&family=Nosifer&family=Press+Start+2P&family=Rubik+Beastly&family=Rubik+Spray+Paint&family=Rubik+Wet+Paint&family=Ruslan+Display&display=swap");
+body {
+  background-color: #ef6213;
+}
+body header {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  margin-top: -11vh;
+  padding: 1%;
+  display: flex;
+  position: fixed;
+  transition: all 0.3s;
+}
+body header a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header a img {
+  width: 3.5rem;
+  justify-content: start;
+}
+body header ul {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+body header ul nav {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+body header ul nav li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+body header ul nav li a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}
+body header ul nav li a span {
+  margin: 0 10%;
+}
+body header ul nav li a .icon {
+  display: flex;
+  font-size: 150%;
+}
+body header ul nav li a .icon_text {
+  display: flex;
+  align-items: center;
+}
+body header.abajo {
+  background-color: #ee6c16;
+  border-bottom: 2px solid #ffffff;
+  transition: all 0.3s;
+}
+body footer {
+  text-align: center;
+  margin: 5%;
+}
+body footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+body footer a .icon {
+  font-size: 150%;
+}
+
+@media screen and (max-width: 500px) {
+  body header a img {
+    width: 3rem;
+  }
+  body header ul nav {
+    width: 85%;
+    justify-content: space-between;
+  }
+  body header ul nav li {
+    width: 100%;
+  }
+  body header ul nav li a {
+    color: #ffffff;
+  }
+  body header ul nav li a span {
+    margin: 0 1%;
+  }
+  body header ul nav li a .icon {
+    font-size: 130%;
+  }
+  body header ul nav li a .icon_text {
+    font-size: 80%;
+  }
+}
+/*Colores*/
+/*Tipos de letra*/
+html body {
+  background-image: url("../img/icons/fondo-pizza.png");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+html body #gmail {
+  position: fixed;
+  margin: 3vh 93vw;
+}
+html body #gmail img {
+  width: 4rem;
+}
+html body #int {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11vh;
+  color: #ffffff;
+  text-align: center;
+}
+html body #cont h2 {
+  text-align: center;
+  color: #ffffff;
+}
+html body #cont div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body #cont div ul {
+  border: 2px solid #ffffff;
+  background-color: #ee6c16;
+  transition: all 0.5s;
+  padding: 2.5rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+html body #cont div ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+html body #cont div ul:hover {
+  background-color: #ef6213;
+}
+html body #guia {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html body #guia video {
+  width: 40%;
+  margin: 1.5%;
+}
+html body #guia div {
+  width: 13rem;
+  background-color: #ee6c16;
+  padding: 1%;
+  border-radius: 5rem;
+}
+html body #guia div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+html body #form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body #form iframe {
+  width: 25rem;
+  height: 15rem;
+}
+
+@media screen and (max-width: 500px) {
+  html body {
+    background-position: 0% 50%;
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+  html body #gmail {
+    position: fixed;
+    margin: -1vh 1vw;
+  }
+  html body #gmail img {
+    width: 3rem;
+  }
+  html body #int {
+    width: 90vw;
+  }
+  html body #cont {
+    width: 90vw;
+  }
+  html body #cont div ul {
+    border: 1px solid #ffffff;
+    margin: 1rem;
+  }
+  html body #guia {
+    width: 90vw;
+  }
+  html body #guia video {
+    width: 100%;
+    margin: 1.5%;
+  }
+}/*# sourceMappingURL=index.css.map */

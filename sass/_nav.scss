@@ -1,0 +1,107 @@
+@import "variables";
+
+body {
+    background-color: $Primario;
+    header {
+        background-color: rgba(0, 0, 0, 0);
+        width: 100vw;
+        margin-top: -11vh;
+        padding: 1%;
+        display: flex;
+        position: fixed;
+        transition: all 0.3s;
+        a {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+            width: 3.5rem;
+            justify-content: start;
+            }
+        }
+
+            ul {
+                width: 90%;
+                display: flex;
+                justify-content: flex-end;
+                nav {
+                    width: 45%;
+                    display: flex;
+                    justify-content: space-around;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        a {
+                            display: flex;
+                            text-decoration: none;
+                            color: $Blanco;
+                            span {
+                                margin: 0 10%;
+                            }
+                            .icon {
+                                display: flex;
+                                font-size: 150%;
+                            }
+                            .icon_text {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    header.abajo {
+        background-color: $Secundario;
+        border-bottom: 2px solid $Blanco;
+        transition: all 0.3s;
+    }
+    footer {
+      text-align: center;
+      margin: 5%;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $Blanco;
+        text-decoration: none;
+        .icon {
+          font-size: 150%;
+        }
+      }
+    }
+}
+@media screen and (max-width: 500px) {
+body {
+    header {
+        a {
+            img {
+            width: 3rem;
+            }
+        }
+            ul {
+                nav {
+                    width: 85%;
+                    justify-content: space-between;
+                    li {
+                        width: 100%;
+                        a {
+                            color: $Blanco;
+                            span {
+                                margin: 0 1%;
+                            }
+                            .icon {
+                                font-size: 130%;
+                            }
+                            .icon_text {
+                                font-size: 80%;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+}

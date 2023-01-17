@@ -1,0 +1,120 @@
+@import "nav";
+@import "variables";
+html {
+  body {
+    background-image: url("../img/icons/fondo-pizza.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    #gmail {
+      position: fixed;
+      margin: 3vh 93vw;
+      img {
+        width: 4rem;
+      }
+    }
+    #int {
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 11vh;
+      color: $Blanco;
+      text-align: center;
+    }
+    #cont {
+      h2 {
+        text-align: center;
+        color: $Blanco;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul {
+          border: 2px solid $Blanco;
+          background-color: $Secundario;
+          transition: all 0.5s;
+          padding: 2.5rem;
+          margin: 2rem;
+          border-radius: 2rem;
+            a {
+              text-decoration: none;
+              color: $Blanco;
+            }
+        }
+        ul:hover {
+          background-color: $Primario;
+        }
+      }
+    }
+    #guia {
+      width: 70vw;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: $Blanco;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      video {
+        width: 40%;
+        margin: 1.5%;
+      }
+      div {
+        width: 13rem;
+        background-color: $Secundario;
+        padding: 1%;
+        border-radius: 5rem;
+        a {
+          text-decoration: none;
+          color: $Blanco;
+        }
+      }
+    }
+    #form { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      iframe {
+        width: 25rem;
+        height: 15rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+html {
+  body {
+    background-position: 0% 50%;
+    background-repeat: repeat;
+    background-size: 100%;
+    #gmail {
+      position: fixed;
+      margin: -1vh 1vw;
+      img {
+        width: 3rem;
+      }
+    }
+    #int {
+      width: 90vw;
+    }
+    #cont {
+      width: 90vw;
+      div {
+        ul {
+          border: 1px solid $Blanco;
+          margin: 1rem;
+        }
+      }
+    }
+    #guia {
+      width: 90vw;
+      video {
+        width: 100%;
+        margin: 1.5%;
+      }
+    }
+  }
+}
+}

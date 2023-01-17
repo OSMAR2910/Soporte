@@ -1,0 +1,66 @@
+@import "nav";
+@import "variables";
+html {
+  body {
+    background-image: url("../img/icons/fondo-pizza.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    #gmail {
+      position: fixed;
+      margin: 3vh 93vw;
+      img {
+        width: 4rem;
+      }
+    }
+    #cont {
+        margin-top: 11vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $Blanco;
+        flex-direction: column;
+        .E1,
+        .E2,
+        .E3 {
+            width: 65vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3%;
+            background-color: $Naranja;
+            flex-direction: column;
+            img {
+                width: 60%;
+                margin: 5%;
+            }
+        }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+html {
+  body {
+    background-position: 0% 50%;
+    background-repeat: repeat;
+    background-size: 100%;
+    #gmail {
+      position: fixed;
+      margin: -1vh 1vw;
+      img {
+        width: 3rem;
+      }
+    }
+    #cont {
+        .E1,
+        .E2,
+        .E3 {
+            width: 95vw;
+            img {
+                width: 65%;
+            }
+        }
+    }
+  }
+}
+}
