@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Modak&family=Monoton&family=Nosifer&family=Press+Start+2P&family=Rubik+Beastly&family=Rubik+Spray+Paint&family=Rubik+Wet+Paint&family=Ruslan+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Modak&family=Monoton&family=Nosifer&family=Press+Start+2P&family=Rubik+Beastly&family=Rubik+Spray+Paint&family=Rubik+Wet+Paint&family=Ruslan+Display&display=swap");
 body {
-  background-color: #ef6213;
+  background-color: #ff7b2f;
 }
 body header {
   background-color: rgba(0, 0, 0, 0);
@@ -56,7 +56,7 @@ body header ul nav li a .icon_text {
   align-items: center;
 }
 body header.abajo {
-  background-color: #ee6c16;
+  background-color: #fc8332;
   border-bottom: 2px solid #ffffff;
   transition: all 0.3s;
 }
@@ -142,6 +142,7 @@ html body #cont div ul {
   overflow: hidden;
   width: 10%;
   height: 12rem;
+  background-repeat: no-repeat;
   background-size: 100%;
   border: 2px solid #ffffff;
   transition: all 0.5s;
@@ -184,7 +185,7 @@ html body #guia video {
 }
 html body #guia div {
   width: 13rem;
-  background-color: #ee6c16;
+  background-color: #fc8332;
   padding: 1%;
   border-radius: 5rem;
 }
