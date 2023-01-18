@@ -3,18 +3,18 @@
 html {
   body {
     background-image: url("../img/icons/fondo-pizza.png");
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: 100%;
     #gmail {
       position: fixed;
-      margin: 3vh 93vw;
+      margin: 5vh 93vw;
       img {
         width: 4rem;
       }
     }
     #cont {
-        margin-top: 11vh;
+        margin-top: 15vh;
         display: flex;
         justify-content: center;
         align-items: center;

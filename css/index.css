@@ -8,7 +8,7 @@ body {
 body header {
   background-color: rgba(0, 0, 0, 0);
   width: 100vw;
-  margin-top: -11vh;
+  margin-top: -15vh;
   padding: 1%;
   display: flex;
   position: fixed;
@@ -109,7 +109,7 @@ html body {
 }
 html body #gmail {
   position: fixed;
-  margin: 3vh 93vw;
+  margin: 5vh 93vw;
 }
 html body #gmail img {
   width: 4rem;
@@ -118,7 +118,7 @@ html body #int {
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 11vh;
+  margin-top: 15vh;
   color: #ffffff;
   text-align: center;
 }
@@ -131,20 +131,41 @@ html body #cont div {
   justify-content: center;
   align-items: center;
 }
+html body #cont div #pablo {
+  background-image: url("../img/icons/num bri.png");
+}
+html body #cont div #brian {
+  background-image: url("../img/icons/num pa.png");
+}
 html body #cont div ul {
+  display: flex;
+  overflow: hidden;
+  width: 10%;
+  height: 12rem;
+  background-size: 100%;
   border: 2px solid #ffffff;
-  background-color: #ee6c16;
   transition: all 0.5s;
   padding: 2.5rem;
   margin: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
-html body #cont div ul a {
+html body #cont div ul .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  margin: -50% -50%;
+  width: 200%;
+  height: 170%;
+  opacity: 0;
+  background-color: #0d0d0d;
+}
+html body #cont div ul .back a {
   text-decoration: none;
   color: #ffffff;
 }
-html body #cont div ul:hover {
-  background-color: #ef6213;
+html body #cont div ul:hover .back {
+  opacity: 90%;
 }
 html body #guia {
   width: 70vw;

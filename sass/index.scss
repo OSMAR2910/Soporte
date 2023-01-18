@@ -8,7 +8,7 @@ html {
     background-size: 50%;
     #gmail {
       position: fixed;
-      margin: 3vh 93vw;
+      margin: 5vh 93vw;
       img {
         width: 4rem;
       }
@@ -17,7 +17,7 @@ html {
       width: 70vw;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 11vh;
+      margin-top: 15vh;
       color: $Blanco;
       text-align: center;
     }
@@ -30,20 +30,43 @@ html {
         display: flex;
         justify-content: center;
         align-items: center;
+        #pablo {
+          background-image: url("../img/icons/num\ bri.png");
+        }
+        #brian {
+          background-image: url("../img/icons/num\ pa.png");
+        }
         ul {
+          display: flex;
+          overflow: hidden;
+          width: 10%;
+          height: 12rem;
+          background-size: 100%;
           border: 2px solid $Blanco;
-          background-color: $Secundario;
           transition: all 0.5s;
           padding: 2.5rem;
           margin: 2rem;
-          border-radius: 2rem;
+          border-radius: 1rem;
+          .back {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s;
+            margin: -50% -50%;
+            width: 200%;
+            height: 170%;
+            opacity: 0;
+            background-color: $Negro;
             a {
               text-decoration: none;
               color: $Blanco;
             }
+          }
         }
         ul:hover {
-          background-color: $Primario;
+          .back {
+            opacity: 90%;
+          }
         }
       }
     }
