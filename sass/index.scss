@@ -124,11 +124,20 @@ html {
       width: 90vw;
     }
     #cont {
-      width: 90vw;
+      width: 100vw;
       div {
         ul {
+          height: 4.3rem;
           border: 1px solid $Blanco;
           margin: 1rem;
+          border-radius: 0.5rem;
+          .back {
+            margin: -100% -50%;
+            width: 500%;
+            height: 240%;
+            opacity: 0;
+            background-color: $Negro;
+          }
         }
       }
     }

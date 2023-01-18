@@ -15,13 +15,14 @@ body header {
   transition: all 0.3s;
 }
 body header a {
+  margin: 2%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 body header a img {
-  width: 3.5rem;
+  width: 3rem;
   justify-content: start;
 }
 body header ul {
